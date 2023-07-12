@@ -2,11 +2,18 @@
   "manifest_version": 3,
   "name": "Study Builder",
   "version": "1.0.1",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "service-worker.js"
+  },
   "action": {
     "default_icon": {
-      "16": "images/logo_estacio16.png",
-      "24": "images/logo_estacio24.png",
-      "32": "images/logo_estacio32.png"
+      "16": "icons/16.png",
+      "24": "icons/24.png",
+      "32": "icons/32.png"
     },
     "default_popup": "popup.html"
   }
