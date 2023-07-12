@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Study Builder",
+  "version": "1.0.1",
+  "action": {
+    "default_icon": {
+      "16": "images/logo_estacio16.png",
+      "24": "images/logo_estacio24.png",
+      "32": "images/logo_estacio32.png"
+    },
+    "default_popup": "popup.html"
+  }
+}
